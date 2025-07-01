@@ -63,6 +63,10 @@ body{
   width: 280px;
   font-size: 20px;
 }
+.title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
 
 .desc{
   margin-top: 0;
