@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+body{
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96vh;
+  font-family: "Outfit", sans-serif;
+}
+
+main{
+  background-color: hsl(216, 50%, 16%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  box-shadow: 0 0 10px 7px hsl(217, 47%, 7%);
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+}
+
+img  {
+  margin-top: 20px;
+  margin-left: 0;
+  width: 260px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.ethereum-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.ethereum-info{
+  display: flex;
+  align-items: center;
+}
+
+.ethereum-info > img {
+  width: 10px;
+  height: 15px;
+  margin: 0;
+  margin-right: 5px;
+}
+.ethereum-info > p {
+  margin: 0;
+  font-size:small;
+  font-weight: 500;
+  color: hsl(178, 100%, 50%);
+}
+
+.time-left-info{
+  display: flex;
+  align-items: center;
+}
+
+.time-left-info > img {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+}
+
+.time-left-info > p {
+  margin: 0;
+  font-size:small;
+  font-weight: 500;
+}
+
+.hr{
+  margin-top: 1.5rem;
+  width: 260px;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.profile > img {
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.profile > p {
+  margin: 0;
+  margin-left: 15px;
+}
+
+.profile > p > span{
+  color: white;
+  margin: 0;
+}
