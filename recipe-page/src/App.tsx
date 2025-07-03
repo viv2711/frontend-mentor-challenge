@@ -64,7 +64,7 @@ function App() {
         <h2 className="text-[#854632] text-xl text-[2rem] mb-2 font-young">
           Instructions
         </h2>
-        <ol className="list-decimal pl-5 space-y-4">
+        <ol className="list-decimal marker:text-[#854632] marker:font-extrabold marker:text-[14px] pl-5 space-y-4">
           <li className="pl-5">
             <p className="text-gray-600 font-bold inline ">Beat the eggs:</p> In
             a bowl, beat the eggs with a pinch of salt and pepper until well
