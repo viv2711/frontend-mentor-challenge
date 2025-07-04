@@ -28,10 +28,10 @@ function App() {
         </div>
         <div className="flex items-center mb-[2rem]">
           <h2 className="text-green-500 font-fraunces font-extrabold text-3xl">$149.99</h2>
-          <h4 className="text-grey line-through ml-[1.5rem]">$169.99</h4>
+          <p className="text-grey line-through ml-[1.5rem]">$169.99</p>
         </div>
 
-        <button className="bg-green-500 hover:bg-green-700 w-full flex items-center justify-center self-center text-white py-4 rounded-xl cursor-pointer">
+        <button type="button" className="bg-green-500 hover:bg-green-700 w-full flex items-center justify-center self-center text-white py-4 rounded-xl cursor-pointer">
           <img src="./icon-cart.svg" alt="" className="mr-[0.5rem]"/>
           Add to Cart
         </button>
