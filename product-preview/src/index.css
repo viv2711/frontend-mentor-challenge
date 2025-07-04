@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+
+
+@theme {
+  --font-fraunces: "Fraunces", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --color-cream: hsl(30, 38%, 92%);
+  --color-grey: hsl(228, 12%, 48%);
+  --color-black: hsl(212, 21%, 14%);
+  --color-green-500: hsl(158, 36%, 37%);
+  --color-green-700: hsl(158, 42%, 18%);
+}
+
+@layer base{
+  body {
+    @apply bg-cream sm:flex sm:items-center sm:justify-center sm:min-h-[100vh] flex justify-center items-center min-h-[100vh]}
+}
